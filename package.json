@@ -1,0 +1,13 @@
+{
+  "name": "neuron",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server/scripts/dev.mjs",
+    "build": "npm --prefix client run build",
+    "test": "npm --prefix server test",
+    "test:integration": "npm --prefix server run test:integration",
+    "setup": "node server/scripts/setup.mjs",
+    "mongo": "powershell -NoProfile -ExecutionPolicy Bypass -File server/scripts/start-mongo.ps1"
+  }
+}

@@ -1,0 +1,20 @@
+:root {
+  color-scheme: dark;
+  --bg: #0a0b10;
+  --surface: #11121c;
+  --card: #171824;
+  --elevated: #1c1d2a;
+  --accent: #a78bfa;
+  --cyan: #22d3ee;
+  --pink: #f472b6;
+  --text: #f4f2ff;
+  --muted: #a5a0bd;
+  --border: #303047;
+  --quiet: #7f7a94;
+  --radius: 16px;
+  --font: Inter, "Segoe UI", Arial, sans-serif;
+  font-family: var(--font);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
